@@ -13,7 +13,7 @@ public class MCFModule extends Module {
     private boolean pressed;
 
     public MCFModule() {
-        super("MCF", "Middle click friend", Category.MISC);
+        super("MiddleClickFriend", "Middle click friend", Category.MISC);
     }
 
     @Override
