@@ -7,10 +7,11 @@ public class FastPlaceModule extends Module {
         super("FastPlace", "Removes right-click delay", Category.PLAYER);
     }
 
-    @Override
-    public void onTick() {
-        if (nullCheck()) return;
+@Override
+public void onTick() {
+    if (nullCheck()) return;
 
+    if (mc.options.useKey.isPressed()) {
         mc.rightClickDelay = 0;
     }
 }
