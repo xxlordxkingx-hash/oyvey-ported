@@ -8,7 +8,7 @@ public class StepModule extends Module {
     private final Setting<Float> height = num("Height", 2f, 1f, 3f);
 
     public StepModule() {
-        super("FastUpStairs", "step..", Category.MOVEMENT);
+        super("FastUpStairs", "Instantly Jumps Up The Stairs Fast:)", Category.MOVEMENT);
     }
 
     private float prev;
